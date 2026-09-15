@@ -1,0 +1,8 @@
+{
+  "appId": "com.memberdiary.app",
+  "appName": "Member Diary",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false
+  }
+}

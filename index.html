@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0D2B5E" />
+  <meta name="description" content="Private insurance member management" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <title>Member Diary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <button class="icon-button back" aria-label="Go back">‹</button>
+      <div class="brand"><span class="eyebrow">INSURANCE MANAGEMENT</span><h1>Member Diary</h1></div>
+      <button class="profile-button" aria-label="Profile"><span>♙</span></button>
+    </header>
+    <section id="toast" class="toast" role="status"></section>
+    <div id="app"></div>
+  </main>
+  <div id="modal-root"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "mem-diary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "prepare:web": "powershell -NoProfile -Command \"New-Item -ItemType Directory -Force www | Out-Null; Copy-Item index.html,styles.css,app.js,manifest.webmanifest,icon.svg,service-worker.js www -Force\"",
+    "sync:android": "npm run prepare:web && cap sync android",
+    "build:apk": "npm run sync:android && cd android && gradlew.bat assembleDebug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2"
+  }
+}

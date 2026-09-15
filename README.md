@@ -1,11 +1,7 @@
 📒 Member Diary
-
 Member Diary is a simple Android-based insurance member management application created for my mother, who works as an insurance agent.
-
 💡 Why I Built This
-
 Managing insurance members through manual notes and paper records was becoming difficult. Keeping track of names, contact information, policy details, nominee information, and bank details required a lot of time and made searching for a particular member inconvenient.
-
 So, I built Member Diary to turn those manual records into a simple digital system.
 
 ✨ Features
@@ -59,8 +55,8 @@ JavaScript
 Local Storage
 Android APK
 HTML / CSS for the user interface
-🎯 Purpose
 
+🎯 Purpose
 This project was built as a real-world solution for a family member, with the goal of making everyday insurance member management faster, easier, and more organized.
 
 From manual notes to a simple digital Member Diary.
